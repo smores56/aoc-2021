@@ -1,4 +1,11 @@
-#![feature(path_try_exists, drain_filter)]
+#![feature(
+    array_windows,
+    path_try_exists,
+    iter_intersperse,
+    linked_list_remove,
+    drain_filter,
+    hash_drain_filter
+)]
 
 use chrono::{Datelike, Local};
 use clap::Parser;
